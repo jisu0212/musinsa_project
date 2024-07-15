@@ -1,0 +1,377 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+}
+/* 공통 디자인 */
+main .bg {
+    width:100%;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+main > .bg section {
+    max-width:1250px; margin:0 auto;
+}
+main > .bg section .btn a {
+    line-height: 91px; width:318px;
+    background-color: #050505;
+    color:#fff;
+    border-radius: 50px;
+    font-size: 1.625rem;
+    font-weight: 700;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition:background-color 0.3s, border-color 0.3s;
+}
+main > .bg section .btn a:hover {background-color: #232323;}
+main .bg section .btn a::before {
+    content:'';
+    background-repeat: no-repeat;
+    display: inline-block;
+    width:36px; height:36px;
+    padding-right: 10px;
+}
+main .bg section .btn a:nth-child(1)::before {
+    background-image: url(../images/icon_download.svg);
+}
+/* bg1 */
+main .bg1 {
+    background-image: url(../images/bg1.jpg);
+    height:1000px;
+}
+main .bg1 section {}
+main .bg1 section .title {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:238px 0 10px;
+}
+main .bg1 section .title .sub_title {
+    color:#050505;
+    font-size:1.563rem;
+}
+main .bg1 section .title .logo {}
+main .bg1 section .title .logo a {}
+main .bg1 section .title .logo a img {}
+main .bg1 section .explain {
+    font-size: 1.25rem;
+    line-height: 170%;
+    color:#fff;
+    text-align: right;
+    margin-top:276px;
+}
+main .bg1 section .btn {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:124px;
+}
+main .bg1 section .btn a {}
+main .bg1 section .btn a:nth-child(2) {
+    color:#050505;
+    background-color: #fff;
+}
+main .bg1 section .btn a:nth-child(2):hover {background-color: #cbcbcb;}
+main .bg1 section .btn a:nth-child(2)::before {
+    background-image: url(../images/icon_homepage.svg);
+}
+/* bg2 */
+main .bg2 {
+    background-image: url(../images/bg2.jpg);
+}
+main .bg2 section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:120px 0;
+}
+main .bg2 section #quiz {}
+main .bg2 section #quiz .frm {}
+main .bg2 section #quiz .frm ul {}
+main .bg2 section #quiz .frm ul li {
+    font-size: 1.625rem;
+    font-weight: 600;
+    text-align: left;
+}
+main .bg2 section #quiz .frm ul li:first-child {
+    margin-bottom: 60px;
+}
+main .bg2 section #quiz .frm ul li em {
+    font-size: 2.688rem;
+    font-weight: 700;
+    color:#0078FF;
+}
+main .bg2 section #quiz .frm ul .answer {
+    display: flex;
+    flex-direction: row;
+}
+main .bg2 section #quiz .frm ul .answer .title_a {
+    font-size: 2.688rem;
+    color:#2A2B2F;
+}
+main .bg2 section #quiz .frm ul .answer .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 400;
+    margin-left: 25px;
+    width:389px; height:264px;
+}
+main .bg2 section #quiz .frm ul .list input[name*=event] {display:none;}
+main .bg2 section #quiz .frm ul .list input[name*=event]:checked+label {background-image: url(../images/checked.svg);}
+main .bg2 section #quiz .frm ul .list label {
+    background-image: url(../images/unchecked.svg);
+    background-repeat: no-repeat;
+    padding-left: 49px;
+}
+main .bg2 section #quiz .frm ul .list label[for=point] {}
+main .bg2 section #quiz .frm ul .list label[for=plus_one] {}
+main .bg2 section #quiz .frm ul .list label[for=discount] {}
+main .bg2 section #quiz .frm ul .list label[for=rullet] {}
+main .bg2 section #quiz .frm ul .btn {}
+main .bg2 section #quiz .frm ul .btn #check_btn {
+    background-color: #050505;
+    line-height: 61px; width:523px;
+    border-radius: 30px;
+    border:0;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.625rem;
+    margin:60px 0 0 67px;
+    transition: background-color 0.3s;
+}
+main .bg2 section #quiz .frm ul .btn #check_btn:hover {background-color: #232323;}
+main .bg2 section .right {width:397px;}
+main .bg2 section .right p {
+    font-size: 1.25rem;
+    line-height: 170%;
+    text-align: center;
+}
+main .bg2 section .right p img {}
+main .bg2 section .right p strong {font-weight: 700;}
+/* bg3 */
+main .bg3 {
+    background-image: url(../images/bg3.jpg);
+}
+main .bg3 section {padding:213px 0;}
+main .bg3 section iframe {
+    width:1250px; height:703px;
+}
+main .bg3 section .contents {
+    color:#fff;
+    text-align: center;
+    margin: 109px 0 0;
+}
+main .bg3 section .contents h2 {
+    font-size: 3.438rem;
+    line-height: 120%;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+main .bg3 section .contents p {
+    font-size: 1.625rem;
+    line-height: 170%;
+}
+/* bg4 */
+main .bg4 {
+    background-image: url(../images/bg4.jpg);
+}
+main .bg4 section {
+    padding:156px 0 141px;
+}
+main .bg4 section h2 {
+    color:#fff;
+    font-size: 4.375rem;
+    font-weight: 700;
+    line-height: 170%;
+}
+main .bg4 section .btn {
+    margin: 108px 0 49px 465px;
+}
+main .bg4 section .btn a {
+    border:2px solid #fff;
+}
+main .bg4 section .btn a:hover {border-color: #a3a3a3;}
+main .bg4 section p {}
+main .bg4 section p img {}
+/* bg5 */
+main .bg5 {
+    background-image: url(../images/bg5.jpg);
+}
+main .bg5 section {
+    display: flex;
+    justify-content: space-between;
+    padding:150px 0 158px;
+}
+main .bg5 section ul {
+    width: calc(100% / 2);
+    text-align: center;
+}
+main .bg5 section li {}
+main .bg5 section li:first-child {margin-bottom: 50px;}
+main .bg5 section li h2 {}
+main .bg5 section li h3 {}
+main .bg5 section li p {}
+main .bg5 section li img {}
+/* ========================== 공통 디자인 start ======================== */
+main .bg section li {text-align: center;}
+main .bg section li h2 {
+    color:#0078FF;
+    font-size:1.625rem;
+    font-weight: 700;
+}
+main .bg section li h3 {
+    font-size: 2.125rem;
+    font-weight:700;
+    line-height: 1.2;
+    margin:20px 0;
+}
+main .bg section li p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+main .bg6 section ul,
+main .bg7 section ul,
+main .bg8 section ul,
+main .bg9 section ul {
+    display:flex;
+    padding:183px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ========================== 공통 디자인 end ======================== */
+/* bg6 */
+main .bg6 {
+    background-image: url(../images/bg6.jpg);
+}
+main .bg6 section {}
+main .bg6 section ul {}
+main .bg6 section ul li {}
+main .bg6 section ul li img {}
+main .bg6 section ul li h2 {}
+main .bg6 section ul li h3 {}
+main .bg6 section ul li p {}
+/* bg7 */
+main .bg7 {
+    background-image: url(../images/bg7.jpg);
+}
+main .bg7 section {}
+main .bg7 section ul {}
+main .bg7 section ul li {}
+main .bg7 section ul li h2 {}
+main .bg7 section ul li h3 {}
+main .bg7 section ul li p {}
+main .bg7 section ul li img {}
+/* bg8 */
+main .bg8 {
+    background-image: url(../images/bg8.jpg);
+}
+main .bg8 section {}
+main .bg8 section ul {}
+main .bg8 section ul li {}
+main .bg8 section ul li img {}
+main .bg8 section ul li h2 {}
+main .bg8 section ul li h3 {}
+main .bg8 section ul li p {}
+/* bg9 */
+main .bg9 {
+    background-image: url(../images/bg9.jpg);
+}
+main .bg9 section {}
+main .bg9 section ul {}
+main .bg9 section ul li {}
+main .bg9 section ul li h2 {}
+main .bg9 section ul li h3 {}
+main .bg9 section ul li p {}
+main .bg9 section ul li img {}
+/* bg10 */
+main .bg10 {}
+main .bg10 section {
+    padding:163px 0;
+    overflow: hidden;
+}
+main .bg10 section .title {
+    margin-bottom: 102px;
+}
+main .bg10 section .title h2 {
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+main .bg10 section .title h3 {
+    font-size: 3.438rem;
+    line-height: 1.7;
+    margin-top:24px;
+}
+main .bg10 section .title h3 em {
+    font-weight: 700;
+}
+main .bg10 section .title h3 strong {
+    font-weight: 700;
+    color:#0078FF;
+}
+main .bg10 section ul {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 103px;
+}
+main .bg10 section ul li {}
+main .bg10 section ul li p {}
+main .bg10 section ul li p img {}
+main .bg10 section ul li h3 {margin: 15px 0;}
+main .bg10 section ul li p:last-child {
+    font-size: 1.625rem;
+}
+main .bg10 section .btn {float:right;}
+main .bg10 section .btn a {}
+/* bg11 */
+main .bg11 {
+    background-image: url(../images/bg11.jpg);
+    text-align: center;
+}
+main .bg11 section {}
+main .bg11 section h2 {
+    font-size: 4.375rem;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: -0.2px;
+    color:#fff;
+    padding: 414px 0 446px;
+}
+/* bg12 */
+main .bg12 {
+    background-image: url(../images/bg12.jpg);
+    padding:173px 0 230px;
+}
+main .bg12 section {}
+main .bg12 section .bg12_title {
+    display:flex;
+    justify-content: space-between;
+}
+main .bg12 section .bg12_title h1 {
+    color:#fff;
+}
+main .bg12 section .bg12_title h1 a {}
+main .bg12 section .bg12_title h1 a img {}
+main .bg12 section .bg12_title ul {
+    display:flex;
+    flex-flow:row nowrap;
+}
+main .bg12 section .bg12_title ul li {
+    margin-left:25px;
+}
+main .bg12 section .bg12_title ul li:hover {filter:opacity(0.5);}
+main .bg12 section .bg12_title ul li:first-child {margin:0;}
+main .bg12 section .bg12_title ul li a {}
+main .bg12 section .bg12_title ul li a img {}
+main .bg12 section .bg12_contents {}
+main .bg12 section .bg12_contents p {
+    color:#fff;
+    margin-top:57px;
+    line-height: 1.7;
+}
